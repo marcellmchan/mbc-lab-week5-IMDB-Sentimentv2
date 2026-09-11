@@ -65,7 +65,7 @@ if "history" not in st.session_state:
 # ============================================================
 # UI
 # ============================================================
-st.title("IMDB Movie Review Sentiment Classifier")
+st.title("IMDB Movie Review Sentiment Analysis")
 st.caption("Versi 2")
 st.write(
     "Masukkan review film untuk diprediksi sentimennya. "
