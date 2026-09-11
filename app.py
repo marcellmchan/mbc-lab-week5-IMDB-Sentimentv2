@@ -17,7 +17,7 @@ ONNX_MODEL_PATH = os.path.join(BASE_DIR, "sentiment_gru.onnx")
 TOKENIZER_PATH = os.path.join(BASE_DIR, "tokenizer.pkl")
 MAX_LEN = 100
 
-st.set_page_config(page_title="IMDB Sentiment Classifier v2", page_icon="🎬", layout="centered")
+st.set_page_config(page_title="IMDB Movie Review Sentiment Analysis v2", page_icon="🎬", layout="centered")
 
 st.markdown("""
 <style>
