@@ -165,4 +165,4 @@ if st.session_state.history:
     st.table(st.session_state.history)
 
 st.markdown("---")
-st.caption("Model GRU dilatih pada dataset IMDB 50K Reviews. Opsi ONNX Runtime tersedia untuk inferensi yang lebih cepat.")
+st.caption("Model GRU dilatih pada dataset IMDB 50K Reviews.")
